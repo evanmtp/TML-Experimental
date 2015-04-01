@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -46.0, 44.0, 1326.0, 914.0 ],
+		"rect" : [ 0.0, 44.0, 1326.0, 914.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2190,7 +2190,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 465.0, 150.0, 18.0 ],
-									"text" : "/alice-iv/r"
+									"text" : "/alice-iv/"
 								}
 
 							}
@@ -3610,7 +3610,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 465.0, 150.0, 18.0 ],
-									"text" : "/alice-iv/ayywff"
+									"text" : "/alice-iv/"
 								}
 
 							}
@@ -4469,13 +4469,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 570.0, 270.0, 100.0 ],
-					"text" : "/ip/alice-iv.wireless.concordia.ca \"172.30.74.212\"\n/ip/tml-mini.local \"10.0.0.102\"\n/tml-mini/\n/ip/tml-deleuze.local \"10.0.0.89\"\n/tml-deleuze/\n/alice-iv/r\n/alice-iv/ayywff",
+					"patching_rect" : [ 300.0, 570.0, 270.0, 87.0 ],
+					"text" : "/alice-iv/\n/ip/tml-mini.local \"10.0.0.102\"\n/tml-mini/\n/ip/tml-deleuze.local \"10.0.0.89\"\n/tml-deleuze/\n/ip/alice-iv.wireless.concordia.ca \"172.30.74.212\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -4571,7 +4571,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
