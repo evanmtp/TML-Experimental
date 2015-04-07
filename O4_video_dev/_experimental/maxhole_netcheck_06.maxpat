@@ -240,13 +240,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-67",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1200.0, 900.0, 270.0, 47.0 ],
-					"text" : "/tml-deleuze/\n/tml-mini/apple\n/tml-mini/george",
+					"patching_rect" : [ 1200.0, 900.0, 270.0, 60.0 ],
+					"text" : "/tml-deleuze/\n/tml-mini/\n/tml-mini/a\n/tml-mini/b",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -4695,13 +4695,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-71",
-					"linecount" : 3,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 930.0, 945.0, 270.0, 47.0 ],
-					"text" : "/tml-deleuze/\n/tml-deleuze/neroa\n/tml-deleuze/zeroa",
+					"patching_rect" : [ 930.0, 945.0, 270.0, 20.0 ],
+					"text" : "/tml-deleuze/",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -4767,13 +4766,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1095.0, 225.0, 270.0, 33.0 ],
-					"text" : "/tml-mini/apple\n/tml-mini/george",
+					"patching_rect" : [ 1095.0, 225.0, 270.0, 20.0 ],
+					"text" : "/tml-mini/",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -9131,7 +9129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 420.0, 720.0, 270.0, 33.0 ],
-					"text" : "/tml-mini \"10.0.0.102\"\n/tml-deleuze \"10.0.0.89\"",
+					"text" : "/tml-deleuze \"10.0.0.89\"\n/tml-mini \"10.0.0.102\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -9223,7 +9221,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 225.0, 225.0, 141.0, 31.0 ],
-									"text" : "/tml-deleuze 10.0.0.89"
+									"text" : "/tml-mini 10.0.0.102"
 								}
 
 							}
@@ -9915,7 +9913,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-33",
+									"id" : "obj-69",
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -10087,7 +10085,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-33", 0 ],
+									"destination" : [ "obj-69", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-141", 0 ]
