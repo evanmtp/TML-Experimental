@@ -35,8 +35,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 435.0, 63.0, 20.0 ],
-					"text" : "multi_udp"
+					"patching_rect" : [ 225.0, 210.0, 99.0, 20.0 ],
+					"text" : "multi_udp 16666"
 				}
 
 			}
@@ -49,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 270.0, 93.0, 18.0 ],
+					"patching_rect" : [ 240.0, 45.0, 93.0, 18.0 ],
 					"text" : "read traffic.mov"
 				}
 
@@ -63,7 +63,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 390.0, 240.0, 121.0, 20.0 ],
+					"patching_rect" : [ 225.0, 15.0, 121.0, 20.0 ],
 					"text" : "qmetro 16 @active 1"
 				}
 
@@ -77,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 390.0, 315.0, 68.0, 20.0 ],
+					"patching_rect" : [ 225.0, 90.0, 68.0, 20.0 ],
 					"text" : "jit.qt.movie"
 				}
 
@@ -191,7 +191,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "jit_matrix" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -1255,7 +1255,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 285.0, 15.0, 105.0, 20.0 ],
-									"presentation_rect" : [ 249.0, 22.0, 0.0, 0.0 ],
 									"text" : "stream name in"
 								}
 
@@ -1270,7 +1269,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.0, 210.0, 90.0, 20.0 ],
-									"presentation_rect" : [ 50.0, 167.0, 0.0, 0.0 ],
 									"text" : "stream tag out"
 								}
 
@@ -1351,7 +1349,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 45.0, 15.0, 60.0, 20.0 ],
-													"presentation_rect" : [ 49.0, 15.0, 0.0, 0.0 ],
 													"text" : "video in"
 												}
 
@@ -1494,7 +1491,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 15.0, 465.0, 150.0, 18.0 ],
-													"text" : "/video/syrinx/zeroaszz za"
+													"text" : "/video/syrinx/"
 												}
 
 											}
@@ -1954,7 +1951,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 390.0, 390.0, 75.0, 20.0 ],
+					"patching_rect" : [ 225.0, 165.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1986,7 +1983,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 360.0, 105.0, 20.0 ],
+					"patching_rect" : [ 240.0, 135.0, 105.0, 20.0 ],
 					"text" : "zeroaszz za",
 					"wordwrap" : 0
 				}
@@ -2028,6 +2025,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2146,8 +2144,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 375.0, 63.0, 20.0 ],
-									"text" : "multi_udp"
+									"patching_rect" : [ 30.0, 375.0, 99.0, 20.0 ],
+									"text" : "multi_udp 16666"
 								}
 
 							}
@@ -2963,13 +2961,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-71",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 300.0, 135.0, 47.0 ],
-					"text" : "/ip/tml-mini 10.0.0.9\n/video/tml-mini/zz\n/video/tml-mini/zza",
+					"patching_rect" : [ 75.0, 300.0, 135.0, 33.0 ],
+					"text" : "/ip/syrinx 10.0.0.2\n/video/syrinx/",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -3070,7 +3068,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 414.5, 301.0, 399.5, 301.0 ],
+					"midpoints" : [ 249.5, 76.0, 234.5, 76.0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
