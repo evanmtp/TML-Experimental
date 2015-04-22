@@ -1482,8 +1482,20 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 240.0, 270.0, 105.0, 20.0 ],
+									"text" : "s machine_name"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1846,6 +1858,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-73", 0 ]
 								}
 
 							}
@@ -2374,13 +2395,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-71",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 300.0, 135.0, 47.0 ],
-					"text" : "/ip/syrinx 10.0.0.2\n/ip/tml-mini 10.0.0.9\n/video/syrinx/zeroasz",
+					"patching_rect" : [ 75.0, 300.0, 135.0, 60.0 ],
+					"text" : "/ip/syrinx 10.0.0.2\n/ip/tml-mini 10.0.0.9\n/video/syrinx/\n/video/syrinx/zeroasz",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
