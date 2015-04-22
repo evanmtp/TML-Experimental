@@ -220,7 +220,6 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -1589,7 +1588,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 45.0, 285.0, 93.0, 18.0 ],
-													"text" : "\"zeroaszz za\""
+													"text" : "no"
 												}
 
 											}
@@ -1833,7 +1832,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 75.0, 90.0, 106.0, 20.0 ],
-									"text" : "udpreceive 10666"
+									"text" : "udpreceive 18888"
 								}
 
 							}
@@ -1984,7 +1983,7 @@
 					"outputmode" : 1,
 					"parameter_enable" : 0,
 					"patching_rect" : [ 240.0, 135.0, 105.0, 20.0 ],
-					"text" : "zeroaszz za",
+					"text" : "no",
 					"wordwrap" : 0
 				}
 
@@ -2006,7 +2005,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 150.0, 195.0, 346.0, 406.0 ],
+						"rect" : [ 419.0, 204.0, 346.0, 406.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2025,7 +2024,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2961,13 +2959,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-71",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 300.0, 135.0, 33.0 ],
-					"text" : "/ip/syrinx 10.0.0.2\n/video/syrinx/",
+					"patching_rect" : [ 75.0, 300.0, 135.0, 60.0 ],
+					"text" : "/ip/syrinx 10.0.0.2\n/ip/tml-mini 10.0.0.9\n/video/syrinx/\n/video/tml-mini/z",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
