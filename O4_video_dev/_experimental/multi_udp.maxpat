@@ -48,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.0, 120.0, 147.0, 20.0 ],
-					"text" : "udpsend 10.0.0.12 16666"
+					"text" : "udpsend 10.0.0.12 #1"
 				}
 
 			}
@@ -61,7 +61,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 120.0, 146.0, 20.0 ],
-					"text" : "udpsend 10.0.0.11 16666"
+					"text" : "udpsend 10.0.0.11 #1"
 				}
 
 			}
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 120.0, 147.0, 20.0 ],
-					"text" : "udpsend 10.0.0.10 16666"
+					"text" : "udpsend 10.0.0.10 #1"
 				}
 
 			}
@@ -87,7 +87,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 120.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.9 16666"
+					"text" : "udpsend 10.0.0.9 #1"
 				}
 
 			}
@@ -100,7 +100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.0, 90.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.8 16666"
+					"text" : "udpsend 10.0.0.8 #1"
 				}
 
 			}
@@ -113,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 90.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.7 16666"
+					"text" : "udpsend 10.0.0.7 #1"
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 90.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.6 16666"
+					"text" : "udpsend 10.0.0.6 #1"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 90.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.5 16666"
+					"text" : "udpsend 10.0.0.5 #1"
 				}
 
 			}
@@ -152,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.0, 60.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.4 16666"
+					"text" : "udpsend 10.0.0.4 #1"
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 60.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.3 16666"
+					"text" : "udpsend 10.0.0.3 #1"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 60.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.2 16666"
+					"text" : "udpsend 10.0.0.2 #1"
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 60.0, 140.0, 20.0 ],
-					"text" : "udpsend 10.0.0.1 16666"
+					"text" : "udpsend 10.0.0.1 #1"
 				}
 
 			}
@@ -316,8 +316,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
