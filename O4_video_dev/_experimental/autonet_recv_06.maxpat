@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 349.0, 497.0 ],
+		"rect" : [ 9.0, 166.0, 349.0, 497.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -811,7 +811,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 270.0, 615.0, 154.0, 33.0 ],
-									"presentation_rect" : [ 393.0, 610.0, 0.0, 0.0 ],
 									"text" : "send stream request to computer hosting stream"
 								}
 
@@ -857,7 +856,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 540.0, 75.0, 105.0, 74.0 ],
-									"presentation_rect" : [ 540.0, 162.0, 0.0, 0.0 ],
 									"text" : "clear dict, then populate with current list of computer names and ips"
 								}
 
@@ -1041,7 +1039,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 405.0, 225.0, 18.0 ],
-									"text" : "zza"
+									"text" : "yes"
 								}
 
 							}
@@ -1118,6 +1116,7 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
+										"/syrinx" : "10.0.0.2",
 										"/tml-mini" : "10.0.0.9"
 									}
 ,
@@ -1439,7 +1438,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.0, 570.0, 105.0, 20.0 ],
-									"presentation_rect" : [ 340.0, 627.0, 0.0, 0.0 ],
 									"text" : "stream name"
 								}
 
@@ -2173,7 +2171,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 165.0, 90.0, 135.0, 64.0 ],
-									"presentation_rect" : [ 155.0, 119.0, 0.0, 0.0 ],
 									"text" : "clear umenu and populate with  current list of videos."
 								}
 
@@ -2189,7 +2186,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 105.0, 60.0, 135.0, 24.0 ],
-									"presentation_rect" : [ 132.0, 132.0, 0.0, 0.0 ],
 									"text" : "select only videos."
 								}
 
@@ -2247,7 +2243,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 150.0, 165.0, 195.0, 18.0 ],
-									"text" : "/tml-mini/zza"
+									"text" : "/tml-mini/yes"
 								}
 
 							}
@@ -2488,7 +2484,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-32",
-					"items" : [ "/tml-mini/zz", ",", "/tml-mini/zza" ],
+					"items" : [ "/syrinx/now", ",", "/tml-mini/yes" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
